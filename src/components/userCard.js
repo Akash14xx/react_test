@@ -1,7 +1,7 @@
 import React from "react";
-import "./UserCard.css"; // Import CSS
+import "./userCard.css"; // Import CSS
 
-const UserCard = ({ image, name, description, email }) => {
+const userCard = ({ image, name, description, email }) => {
   return (
     <div className="user-card">
       <img src={image} alt={name} className="user-image" />
@@ -12,4 +12,4 @@ const UserCard = ({ image, name, description, email }) => {
   );
 };
 
-export default UserCard;
+export default userCard;

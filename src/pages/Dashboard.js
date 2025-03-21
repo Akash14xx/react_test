@@ -5,19 +5,19 @@ import "./Dashboard.css"; // Import CSS
 const Dashboard = () => {
   const [users] = useState([
     {
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      name: "John Doe",
+      image: "https://tse2.mm.bing.net/th?id=OIP.NqY3rNMnx2NXYo3KJfg43gHaHa&pid=Api&P=0&h=180",
+      name: "dany jon",
       description: "Frontend Developer",
       email: "john@example.com",
     },
     {
-      image: "https://randomuser.me/api/portraits/women/2.jpg",
-      name: "Jane Smith",
+      image: "https://tse1.mm.bing.net/th?id=OIP.y-nGyqT5AwES8oqp344z4gHaHa&pid=Api&P=0&h=180",
+      name: "Jade katey",
       description: "UI/UX Designer",
       email: "jane@example.com",
     },
     {
-      image: "https://randomuser.me/api/portraits/men/3.jpg",
+      image: "https://tse1.mm.bing.net/th?id=OIP.tL1dKiGcEl_zmAltMAiCDQHaHa&pid=Api&P=0&h=180",
       name: "Mark Wilson",
       description: "Backend Engineer",
       email: "mark@example.com",
